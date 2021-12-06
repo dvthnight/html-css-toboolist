@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+header{
+    height: 95px;
+    padding-top: 25px;
+    padding-left: 20px;
+
+}
+
+
+
+header h1{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -11px;
+    font-weight: 500;
+    font-size: 40px;
+}
