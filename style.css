@@ -3,13 +3,18 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: rgb(246, 247, 248);
+}
 
 header{
     height: 95px;
     padding-top: 25px;
     padding-left: 20px;
+    background-color: white;
 
 }
 
@@ -20,6 +25,124 @@ header h1{
     margin: 0;
     position: relative;
     top: -11px;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 40px;
+}
+
+main
+
+.formattazione{
+    width: 1200px;
+    margin: 50px auto;
+    background-color: white;
+    padding-bottom: 150px;
+}
+
+#task{
+    background-color: rgb(78, 163, 233);
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    border:none;
+}
+
+#section{
+    background-color: white;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    color: rgb(226, 226, 226);
+    border-style: solid;
+    border-color: rgb(226, 226, 226);
+}
+
+hr{
+    margin-top: 10px;
+    border: 1px solid rgb(226,226,226);
+}
+
+details{
+    margin-left: 80px;
+    color: rgb(31, 73, 71);
+}
+
+summary{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+
+.Editorial{
+    background-color: rgb(77, 161, 225);
+    padding: 6px 12px;
+    border-radius: 11px;
+    color: white;
+    border:none;
+}
+
+
+.Q1{
+    background-color: rgb(139, 109, 217);
+    padding: 6px 12px;
+    border-radius: 11px;
+    color: white;
+    border:none;
+}
+
+
+.Recruiting{
+    background-color: rgb(106, 181, 160);
+    padding: 6px 12px;
+    border-radius: 11px;
+    color: white;
+    border:none;
+}
+
+
+.Mobile{
+    background-color: rgb(232, 150, 64);
+    padding: 6px 12px;
+    border-radius: 11px;
+    color: white;
+    border:none;
+}
+
+.Website{
+    background-color: rgb(200, 97, 148);
+    padding: 6px 12px;
+    border-radius: 11px;
+    color: white;
+    border:none;
+}
+
+.Sales{
+    background-color: rgb(172, 191, 63);
+    padding: 6px 12px;
+    border-radius: 11px;
+    color: white;
+    border:none;
+}
+
+
+.tick{
+    color: rgb(28, 182, 87);
+    border-radius: 50%;
+    border: 1px solid rgb(28, 182, 87);;
+    padding: 0 2px;
+}
+
+
+.cross{
+    color: red;
+    border-radius: 50px;
+    border: 1px solid red;
+    padding: 0 2px;
+    
 }
